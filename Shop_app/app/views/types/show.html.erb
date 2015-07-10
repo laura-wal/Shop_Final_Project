@@ -2,6 +2,9 @@
 
 <ul>
   <% @type.products.each do |product| %>
-    <li><%= link_to(product.name, type_products_path(product.id))  %></li>
+    <li>
+      <%= link_to(product.name, type_products_path(product.id))  %>
+    <%= image_tag(product.img) %>
+      </li>
   <% end %>
 </ul>

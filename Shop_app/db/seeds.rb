@@ -13,8 +13,8 @@ Product.delete_all
 Order.delete_all
 
 
-u1 = User.create(name: 'laura', password: 'testy')
-u2 = User.create(name: 'anne', password: 'test2')
+u1 = User.create(email: 'laura@gffd', password: 'testy')
+u2 = User.create(email: 'anne@ddd', password: 'test2')
 
 # creating the categories
 cat1 = Type.create(name: 'Tough Things')
