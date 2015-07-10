@@ -1,0 +1,7 @@
+<h2>Type show page</h2>
+
+<ul>
+  <% @type.products.each do |product| %>
+    <li><%= link_to(product.name, type_products_path(product.id))  %></li>
+  <% end %>
+</ul>

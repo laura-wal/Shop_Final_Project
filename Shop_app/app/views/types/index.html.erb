@@ -1,0 +1,18 @@
+<h1>Homepage</h1>
+<form>
+  <p>Search <input type="text" id="searchBox" /></p>
+</form>
+
+<!-- <div class="type_container">
+  <div class='tough'>TOUGH</div>
+  <div class="natural">NATURAL</div>
+  <div class="soft">SOFT</div>
+  <div class="play">PLAY</div>
+</div> -->  
+
+<!-- list the type of product links -->
+<ul>
+  <% @types.each do |type| %>
+    <li class="type-li"><%= link_to(type.name, type_path(type.id), class: 'type-link')  %></li>
+  <% end %>
+</ul>
