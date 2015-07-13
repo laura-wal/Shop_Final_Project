@@ -118,8 +118,6 @@ GEM
     pg (0.18.2)
     polyamorous (1.2.0)
       activerecord (>= 3.0)
-    protected_attributes (1.1.0)
-      activemodel (>= 4.0.1, < 5.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -226,7 +224,6 @@ DEPENDENCIES
   jquery-rails
   json
   pg
-  protected_attributes
   pry-rails
   rails (= 4.2.0)
   ransack (~> 1.6.6)

@@ -23,7 +23,7 @@ class OrderProductsController < ApplicationController
   end
 
   def create
-    @order_product = OrderProduct.create(params[:order_product])
+    @order_product = OrderProduct.create(order_product_params)
 
     respond_to do |format|
       if @order_product.save
@@ -96,7 +96,7 @@ class OrderProductsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def order_product_params
-      params[:order_product]
+     params.require(:order_product).permit(:quantity, :product_id, :order_id)
     end
 end
 

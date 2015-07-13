@@ -1,6 +1,6 @@
 class OrderProduct < ActiveRecord::Base
   
-  attr_accessible :order_id, :product_id, :quantity
+  # attr_accessible :order_id, :product_id, :quantity
 
   # validates :product_id, :presence => true
   # validates :quantity, :presence => true

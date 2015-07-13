@@ -11,7 +11,7 @@ Type.delete_all
 Tag.delete_all
 Product.delete_all
 Order.delete_all
-
+OrderProduct.delete_all
 
 u1 = User.create(email: 'laura@gffd', password: 'testy')
 u2 = User.create(email: 'anne@ddd', password: 'test2')
