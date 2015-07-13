@@ -1,0 +1,14 @@
+<h1>Homepage</h1>
+
+<hr class="style-eight"><br><br>
+
+<div class="allProducts_container">
+   <% @products.each do |product| %>
+   <div class="indivi_product">
+     <%= image_tag product.img %>
+      <%= product.name %>
+      <%= number_to_currency product.price %>GBP
+      <%= render :partial => 'product_info', :locals => {product:product} %>
+    </div>
+  <% end %>
+</div>

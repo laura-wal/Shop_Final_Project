@@ -13,6 +13,6 @@
 <!-- list the type of product links -->
 <ul>
   <% @types.each do |type| %>
-    <li class="type-li"><%= link_to(type.name, type_path(type.id), class: 'type-link')  %></li>
+    <li class="type-li"><%= link_to(type.name, products_path(type.id), class: 'type-link')  %></li>
   <% end %>
 </ul>

@@ -1,15 +1,15 @@
-class ProductController < ApplicationController
+class ProductsController < ApplicationController
 
    before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   before_filter :check_if_admin, only: [:create, :new, :destroy, :update, :edit]
   
   def index
-    @product = Product.all
+    @products = Product.all
   end
 
   def show
-    @product = Product.find(params[:id])
+    # @product = Product.find(params[:id])
   end
 
   def new

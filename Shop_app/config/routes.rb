@@ -2,21 +2,25 @@ Rails.application.routes.draw do
   
   devise_for :users
 
-  root 'types#index'
+ 
 
-  resources :types do
-    resources :products 
-  end  
+  # resources :types do
+  #   resources :products 
+  # end  
+
+  # resources :types  
 
   resources :orders
 
-  # resources :products
+  resources :products
 
   resources :charges
 
   resources :order_products
 
   get 'checkout' => 'order_products#checkout'
+
+  root 'products#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

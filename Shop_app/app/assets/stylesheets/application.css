@@ -15,7 +15,7 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets"
+ @import "bootstrap-sprockets";
  @import "bootstrap"
 
  @import"bootstrap.css";
@@ -61,7 +61,7 @@ body {
 /*#carousel-marketplac-generic {
   margin-bottom: 30px;
 }*/
-.indiv_product {
+.indivi_product {
   display: inline-block;
   cursor: pointer;
   max-width: 275px;
@@ -75,13 +75,13 @@ body {
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
   filter: progid:DXImageTransform.Microsoft.Shadow(color=#adacac, direction=135, strength=2);
 }
-.indiv_product:hover {
+.indivi_product:hover {
   box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
   -moz-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
   -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
   filter: progid:DXImageTransform.Microsoft.Shadow(color=#979797, direction=135, strength=3);
 }
-.indiv_product img {
+.indivi_product img {
   border-radius: 8px;
 }
 .product_left_panel, .product_right_panel {
