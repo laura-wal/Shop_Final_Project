@@ -1,5 +1,9 @@
 class ProductController < ApplicationController
 
+   before_action :set_product, only: [:show, :edit, :update, :destroy]
+
+  before_filter :check_if_admin, only: [:create, :new, :destroy, :update, :edit]
+  
   def index
     @product = Product.all
   end

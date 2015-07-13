@@ -47,6 +47,9 @@ gem 'underscore-rails'
 
 gem 'bootstrap-sass'
 
+#prevent mass assignment to attributes not explicitly allowed
+gem 'protected_attributes'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -1,6 +1,6 @@
 class Product < ActiveRecord::Base
 
-  # attr_accessible :name, :price, :designer, :img, :stock
+  attr_accessible :name, :price, :designer, :img, :stock
 
   belongs_to :type
   has_many :product_tags

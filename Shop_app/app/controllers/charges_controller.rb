@@ -19,6 +19,9 @@ def create
     :currency    => 'usd'
   )
 
+  # clear the shopping cart at the end
+    initialize_new_cart
+
   rescue Stripe::CardError => e
     flash[:error] = e.message
     redirect_to charges_path
