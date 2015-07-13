@@ -1,6 +1,18 @@
 <h2>Type show page</h2>
 
+<div class="allProducts_container">
+   <% @type.products.each do |product| %>
+   <div class="indivi_product">
+     <%= image_tag product.img %>
+      <%= product.name %>
+      <%= number_to_currency product.price %>GBP
+      <%= render :partial => 'product_info', :locals => {product:product} %>
+    </div>
+  <% end %>
+</div>
 
+
+<!-- orginal layout
 <ul>
   <% @type.products.each do |product| %>
     <li>
@@ -21,4 +33,4 @@
 </form>
       </li>
   <% end %>
-</ul>
+</ul> -->
