@@ -1,10 +1,24 @@
 <h2>Type show page</h2>
 
+
 <ul>
   <% @type.products.each do |product| %>
     <li>
       <%= link_to(product.name, type_products_path(product.id))  %>
+    <%= product.price %>
+    <%= product.designer %>
     <%= image_tag(product.img) %>
+    <form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_Djgj4JwfpjhyqEnSQZurAI2K"
+    data-image="/img/documentation/checkout/marketplace.png"
+    data-name="THINGS YOU MIGHT LIKE"
+    data-description="2 widgets"
+    data-currency="gbp"
+    data-amount="2000">
+  </script>
+</form>
       </li>
   <% end %>
 </ul>

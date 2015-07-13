@@ -1,4 +1,7 @@
 class Product < ActiveRecord::Base
+
+  attr_accessible :name, :price, :designer, :img, :stock
+
   belongs_to :type
   has_many :product_tags
   has_many :tags, through: :product_tags
