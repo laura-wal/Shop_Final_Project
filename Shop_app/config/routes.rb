@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   devise_for :users
 
   root 'types#index'
@@ -7,7 +8,16 @@ Rails.application.routes.draw do
     resources :products 
   end  
 
+  resources :orders
+
+  # resources :products
+
   resources :charges
+
+  resources :order_products
+
+  get 'checkout' => 'order_products#checkout'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
