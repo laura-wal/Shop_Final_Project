@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require underscore
 //= require turbolinks
-//= require bootstrap
+//= require bootstrap-sprockets
 //= require_tree .
 
 
@@ -80,7 +80,7 @@ $(document).ready(function() {
         $('body').find("[data-productID='" + productID + "']").fadeOut();
         $('.flash_msg').text(data.status).toggleClass('wobble-vertical');
         //redraw the total price on screen so that it will update instantly whenever item removed from cart
-        $('.totalPrice').html('<b>$' + data.updatedPrice + '0 AUD</b>');
+        $('.totalPrice').html('<b>$' + data.updatedPrice + '0 GBP</b>');
 
       }).error(function() {
         console.log('remove item failed');
