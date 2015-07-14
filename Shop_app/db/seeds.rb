@@ -27,6 +27,15 @@ cat4 = Type.create(name: 'Play Things')
 p1 = Product.create!(name: 'Cone Face', designer: 'me', price: 41, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
 p2 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
 p3 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
+p4 = Product.create!(name: 'Conny', designer: 'Jim', price: 41.00, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
+p5 = Product.create(name: 'blue Hair', designer: 'Anna', price: 10, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
+p6 = Product.create(name: 'Mushroom arm', designer: 'mini', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
+p7 = Product.create!(name: 'nose Face', designer: 'nick', price: 71, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
+p8 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
+p9 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
+p10 = Product.create!(name: 'Cone Face', designer: 'me', price: 41, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
+p2 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
+p3 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
 
 # puttting the products into the catogories
 cat1.products << p1

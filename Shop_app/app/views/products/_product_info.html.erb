@@ -22,7 +22,7 @@
           <div class="progress-button">
             <% if user_signed_in? %>
               <%= form_tag("/order_products", method: "post") do %>
-                <%= select_tag "quantity", options_for_select((1..100).step(1)), :class => 'form-control quantity' %>
+                <%= select_tag "quantity", options_for_select((1..10).step(1)), :class => 'form-control quantity' %>
                 <%= hidden_field_tag 'product_id', product.id %>
                 <%= submit_tag "Add to Cart", :class => "addToCart" %>
               <% end %>
@@ -38,7 +38,7 @@
           </div>
 
           <p class="lead">
-            <strong>Description:</strong>
+            <strong>Designer:</strong>
             <%= product.designer %>
           </p>
 
@@ -47,10 +47,10 @@
             <%= number_to_currency product.price %> GBP
           </p>
 
-          <p class="lead">
+        <!--   <p class="lead">
             <strong>Stock:</strong>
           
-          </p>
+          </p> -->
 
         </div>
 

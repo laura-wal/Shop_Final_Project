@@ -28,6 +28,7 @@ $(document).ready(function() {
     var $productID = $(this).closest('.product_right_panel').data('productid');
 
     orderProduct.createOrderProduct($quantity, $productID);
+    debugger
   });
 
   // Event listener for 'Remove' item from Cart
@@ -56,8 +57,8 @@ $(document).ready(function() {
 
       }).done(function(data) {
         console.log('added');
-        // $('#myModal' + productID).modal('hide');
-        // $('.flash_msg').text(data.status).toggleClass('wobble-vertical');
+        $('#myModal' + productID).modal('hide');
+        $('.flash_msg').text(data.status).toggleClass('wobble-vertical');
 
       }).error(function() {
         console.log('add item failed');
