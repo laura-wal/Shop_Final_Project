@@ -26,10 +26,11 @@ header {
   min-width: 100%;
 }
 body {
-  background: url('gray_splat.png') center center fixed;
+ /* background: url('gray_splat.png') center center fixed;*/
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #CCFF99;
+  display: block;
 }
 
 img {
@@ -38,8 +39,12 @@ img {
 
 }
 .site_container {
-  max-width: 1250px;
-  margin: 2% auto;
+/*  max-width: 1250px;*/
+ /* margin: 2% auto;*/
+  margin: 0 auto 0;
+  width: 960px;
+  position: relative;
+    z-index: 2;
  
 }
 .navbar {
@@ -66,21 +71,32 @@ h1 {
 }
 
 .yield_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+/*.yield_container {
   width: 100%;
   border: 1px solid transparent;
- /* background-color:gray;*/
+  background-color:gray;
   padding: 20px;
   border-radius: 5px;
-  /*box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+  box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
-  filter: progid:DXImageTransform.Microsoft.Shadow(color=#adacac, direction=135, strength=2);*/
-}
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#adacac, direction=135, strength=2);
+}*/
+
 /*#carousel-marketplac-generic {
   margin-bottom: 30px;
 }*/
 .indivi_product {
-  display: inline-block;
+  /*display: inline-block;*/
   cursor: pointer;
   max-width: 360px;
   border: 1px solid transparent;
@@ -101,7 +117,9 @@ h1 {
 }
 .indivi_product img {
   border-radius: 8px;
+  text-align: center;
 }
+
 .product_left_panel, .product_right_panel {
   display: inline-block;
   vertical-align: top;
@@ -145,16 +163,17 @@ h1 {
   z-index: 9;
   cursor: pointer;
 }
-.about-container {
+/*.about-container {
   padding: 30px;
-}
-.about-img {
+}*/
+/*.about-img {
   width: 50%;
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
-}
-hr.style-eight {
+}*/
+
+/*hr.style-eight {
   padding: 0;
   border: none;
   border-top: medium double #333;
@@ -169,7 +188,7 @@ hr.style-eight:after {
   font-size: 1.5em;
   padding: 0 0.25em;
   background: white;
-}
+}*/
 .quantity {
   width: 50px;
   display: inline-block;
@@ -177,14 +196,15 @@ hr.style-eight:after {
 }
 .product_img {
   margin: auto;
+  text-align: center;
 }
 .list_item {
   list-style: none;
 }
-.heartbeat {
+/*.heartbeat {
   display: inline-block;
   margin: 15px;
-}
+}*/
 .goRight {
   float: right;
 }

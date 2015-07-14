@@ -23,24 +23,24 @@
 $(document).ready(function() {
 
 
-//drag function
-  $(init)
-    function init() {
-    $("#draggable").draggable();
-  };
+// //drag function
+//   $(init)
+//     function init() {
+//     $("#draggable").draggable();
+//   };
 
 //search function
-    $.ajax({
-    url: 'http://localhost:3000/',
-    dataType: 'json'
-  }).done(function(response) {
-    console.log(response);
-    // debugger;
-    var FJS = FilterJS(response, '.yield_container', {
-      template: '.indivi_product',
-      search: {ele: '.form-control', fields: ['tags.name']}
-    });
-  })
+  //   $.ajax({
+  //   url: 'http://localhost:3000/',
+  //   dataType: 'json'
+  // }).done(function(response) {
+  //   console.log(response);
+  //   // debugger;
+  //   var FJS = FilterJS(response, '.yield_container', {
+  //     template: '.indivi_product',
+  //     search: {ele: '.form-control', fields: ['tags.name']}
+  //   });
+  // })
 
   // Event listener for 'add to cart' button
   $('.addToCart').on('click', function(event) {
