@@ -24,9 +24,10 @@ $(document).ready(function() {
 
 
 //drag function
-  $(function() {
-    $(".indivi_product").draggable();
-  });
+  $(init)
+    function init() {
+    $("#draggable").draggable();
+  };
 
 //search function
     $.ajax({

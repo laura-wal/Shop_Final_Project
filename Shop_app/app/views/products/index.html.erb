@@ -3,7 +3,7 @@
 
 <div class="allProducts_container">
    <% @products.each do |product| %>
-   <div class="indivi_product">
+   <div class="indivi_product" id="draggable">
      <%= image_tag product.img %>
       <%= product.name %>
       <%= number_to_currency product.price %>GBP
