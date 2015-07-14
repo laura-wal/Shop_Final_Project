@@ -28,7 +28,7 @@ $(document).ready(function() {
   }).done(function(response) {
     console.log(response);
     // debugger;
-    var FJS = FilterJS(response, '#products', {
+    var FJS = FilterJS(response, '.yield_container', {
       template: '.indivi_product',
       search: {ele: '.form-control', fields: ['tags.name']}
     });
