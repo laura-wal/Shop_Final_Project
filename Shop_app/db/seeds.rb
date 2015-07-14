@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.delete_all
-Type.delete_all
+# Type.delete_all
 Tag.delete_all
 Product.delete_all
 Order.delete_all
@@ -16,11 +16,11 @@ OrderProduct.delete_all
 u1 = User.create(email: 'laura@gffd', password: 'testy')
 u2 = User.create(email: 'anne@ddd', password: 'test2')
 
-# creating the categories
-cat1 = Type.create(name: 'Tough Things')
-cat2 = Type.create(name: 'Natural Things')
-cat3 = Type.create(name: 'Soft Things')
-cat4 = Type.create(name: 'Play Things')
+# # creating the categories
+# cat1 = Type.create(name: 'Tough Things')
+# cat2 = Type.create(name: 'Natural Things')
+# cat3 = Type.create(name: 'Soft Things')
+# cat4 = Type.create(name: 'Play Things')
 
 
 # creating the products
@@ -33,14 +33,23 @@ p6 = Product.create(name: 'Mushroom arm', designer: 'mini', price: 40, img: Rail
 p7 = Product.create!(name: 'nose Face', designer: 'nick', price: 71, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
 p8 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
 p9 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
-p10 = Product.create!(name: 'Cone Face', designer: 'me', price: 41, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
-p2 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
-p3 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
+p12 = Product.create!(name: 'Cone Face', designer: 'me', price: 41, img: Rails.root.join("app/assets/images/cone_face_1.jpg").open)
+p11 = Product.create(name: 'Green Hair', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/grey_pot_1.jpg").open)
+p13 = Product.create(name: 'Mushroom Face', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/mushroom_face_1.jpg").open)
 
-# puttting the products into the catogories
-cat1.products << p1
-cat1.products << p2
-cat4.products << p3
+# # puttting the products into the catogories
+# cat1.products << p1
+# cat1.products << p2
+# cat4.products << p3
+# cat1.products << p4
+# cat1.products << p5
+# cat4.products << p6
+# cat1.products << p7
+# cat1.products << p8
+# cat4.products << p9
+# cat1.products << p11
+# cat1.products << p12
+# cat4.products << p13
 
 # creating the tags
 t1 = Tag.create(name: 'glazed')

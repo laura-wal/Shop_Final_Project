@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require filter
 //= require underscore
 //= require turbolinks
 //= require bootstrap-sprockets
@@ -20,6 +21,18 @@
 
 
 $(document).ready(function() {
+
+    $.ajax({
+    url: 'http://localhost:3000/',
+    dataType: 'json'
+  }).done(function(response) {
+    console.log(response);
+    // debugger;
+    var FJS = FilterJS(response, '#final-arts', {
+      template: '#final-art-template',
+      search: {ele: '#searchBox', fields: ['tags.name']}
+    });
+  })
 
   // Event listener for 'add to cart' button
   $('.addToCart').on('click', function(event) {
