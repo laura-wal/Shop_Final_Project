@@ -28,9 +28,9 @@ $(document).ready(function() {
   }).done(function(response) {
     console.log(response);
     // debugger;
-    var FJS = FilterJS(response, '#final-arts', {
-      template: '#final-art-template',
-      search: {ele: '#searchBox', fields: ['tags.name']}
+    var FJS = FilterJS(response, '#products', {
+      template: '.indivi_product',
+      search: {ele: '.form-control', fields: ['tags.name']}
     });
   })
 
