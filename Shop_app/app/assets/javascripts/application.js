@@ -22,6 +22,13 @@
 
 $(document).ready(function() {
 
+
+//drag function
+  $(function() {
+    $(".indivi_product").draggable();
+  });
+
+//search function
     $.ajax({
     url: 'http://localhost:3000/',
     dataType: 'json'
