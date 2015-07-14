@@ -29,6 +29,10 @@ body {
   background: url('blur.jpg') center center fixed;
   background-size: cover;
 }
+
+img {
+  width: 200px;
+}
 .site_container {
   max-width: 1000px;
   margin: 8% auto;

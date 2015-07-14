@@ -90,7 +90,7 @@ $(document).ready(function() {
 
 
   // trigger the 'see more' button when user click on the image
-  $('.site_container').on('click', '.indiv_product img', function() {
-    $(this).closest('.indiv_product').find('.btn-primary').trigger('click');
+  $('.site_container').on('click', '.indivi_product img', function() {
+    $(this).closest('.indivi_product').find('.btn-primary').trigger('click');
   });
 }); // end of document.ready  
