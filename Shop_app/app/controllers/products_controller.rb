@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
   before_filter :check_if_admin, only: [:create, :new, :destroy, :update, :edit]
   
   def index
+    @classes = ['one', 'two', 'three', 'four', 'five']
     @products = Product.all
   end
 

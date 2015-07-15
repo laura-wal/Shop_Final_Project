@@ -1,6 +1,6 @@
 /* Settings */
-var container = '.yield_container';
-var pileEm = '.indivi_product';
+var container = '#stapla';
+var pileEm = '.pile-me';
 var pileSize = 275;
 var pileMargin = 20;
 var offsetMax = 30;
@@ -185,7 +185,7 @@ $(function() {
         event.stopPropagation();
     });
     
-    $('body.back').live({
+    $('body.back').on({
         click: function(event){
             stapla(false);
             $(pileEm).removeClass('active');
