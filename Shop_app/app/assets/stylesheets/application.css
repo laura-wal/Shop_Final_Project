@@ -12,6 +12,7 @@
  *
 
  *= require_tree .
+ *= require normalize
  *= require_self
  */
 
@@ -22,6 +23,7 @@
 body {
     overflow-y: scroll;
     overflow-x: hidden;
+    background: none;
 }
 
 #wrapper {
@@ -187,9 +189,7 @@ h1 {
   pointer-events: none;
   cursor: default;
 }
-.colorize {
-  color: #ece8ef!important;
-}
+
 .flash_msg {
   color: #5cb85c!important;
   margin: 0;

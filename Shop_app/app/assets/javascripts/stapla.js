@@ -1,12 +1,11 @@
 /* Settings */
 var container = '.yield_container';
 var pileEm = '.indivi_product';
-var pileSize = 2;
-var pileMargin = 10;
-var offsetMax = 10;
+var pileSize = 275;
+var pileMargin = 20;
+var offsetMax = 30;
 var columns = 3;
-var topMargin = 40;
-
+var topMargin = 440;
 
 /* No need to edit below unless to change core functionality */
 function setHeights() {

@@ -73,13 +73,7 @@ table {
 
 
 /* Imports */
-@font-face {
-  font-family: 'll_arrow';
-  src: url('fonts/ll_arrow.eot');
-  src: local('?'), url('fonts/ll_arrow.woff') format('woff'), url('fonts/ll_arrow.ttf') format('truetype'), url('fonts/ll_arrow.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 /* Structure */
@@ -162,106 +156,6 @@ a:link.hide-colour, a:visited.hide-colour, a:hover.hide-colour,a:active.hide-col
 
 #share { margin: 42px 10px 10px 10px; }
 
-.github {
-    float: left;
-    width: 220px;
-    margin:0 0 18px;
-}
-
-.github a.text {
-    float: left;
-    width: 161px;
-    padding: 2px 0 0 22px;
-    height: 34px;
-    line-height: 34px;
-    background: #777;
-}
-
-.github a.icon {
-    float: right;
-    width: 36px;
-    height: 36px;
-    line-height: 36px;
-    background: #777;
-    text-indent: -100000px;
-    background-color: #00a651;
-    background-image: url('img/icon_github.png');
-    background-position: -2px -2px;
-    background-repeat: no-repeat;
-}
-
-.github a:hover {
-    border: none;
-    background-color: grey;
-}
-
-ul#socialnetworks {margin:0 0 13px;padding:0;width:220px;float: left;}
-
-ul#socialnetworks li {
-    float: left;
-    width: 36px;
-    height: 36px;
-    margin:0 1px 0 0;
-    background: #777;
-    line-height: 36px;
-    text-align: center;
-}
-
-ul#socialnetworks li.share {
-    width: 71px;
-}
-
-ul#socialnetworks li a {
-    float: left;
-    width: 36px;
-    height: 36px;
-    text-indent: -100000px;
-    display: block;
-}
-
-ul#socialnetworks li.facebook a:link,
-ul#socialnetworks li.facebook a:visited,
-ul#socialnetworks li.facebook a:active {
-    background-color: #3b5a97;
-    background-image: url('img/icon_facebook.png');
-    background-position: -2px -2px;
-    background-repeat: no-repeat;
-}
-
-ul#socialnetworks li.facebook a:hover { border: none;background-color: grey; }
-
-ul#socialnetworks li.twitter a:link,
-ul#socialnetworks li.twitter a:visited,
-ul#socialnetworks li.twitter a:active {
-    background-color: #00aced;
-    background-image: url('img/icon_twitter.png');
-    background-position: -2px -2px;
-    background-repeat: no-repeat;
-}
-
-ul#socialnetworks li.twitter a:hover { border: none;background-color: grey; }
-
-ul#socialnetworks li.tumblr a:link,
-ul#socialnetworks li.tumblr a:visited,
-ul#socialnetworks li.tumblr a:active {
-    background-color: #44536b;
-    background-image: url('img/icon_tumblr.png');
-    background-position: -2px -2px;
-    background-repeat: no-repeat;
-}
-
-ul#socialnetworks li.tumblr a:hover { border: none;background-color: grey; }
-
-ul#socialnetworks li.pinterest a:link,
-ul#socialnetworks li.pinterest a:visited,
-ul#socialnetworks li.pinterest a:active {
-    background-color: #c91f27;
-    background-image: url('img/icon_pinterest.png');
-    background-position: -2px -2px;
-    background-repeat: no-repeat;    
-}
-
-ul#socialnetworks li.pinterest a:hover { border: none;background-color: grey; }
 
 #container { margin: 54px 0 53px; }
 
@@ -291,12 +185,7 @@ ul#socialnetworks li.pinterest a:hover { border: none;background-color: grey; }
     -webkit-transition: all .2s linear;
 }
 
-.product.filtrera {background-color: #FF6666;}
-.product.skala {background-color: #66CC66;}
-.product.stapla {background-color: #23CAE3;}
-.product.rotera {background-color: #F09260;}
-.product.miniatyr {background-color: #7188DB;}
-.product.kollage {background-color: #EB95D9;}
+/
 
 a:hover.product {
     background-color: gray;
@@ -565,13 +454,6 @@ h4 {font-size:11px;line-height:18px;border-bottom: 1px solid #ccc;padding:0 0 8p
 
 .small a:hover {color: gray;border-bottom: 1px solid gray;}
 
-.credits {color: gray;}
-
-.credits strong {border-bottom: 1px solid gray;}
-
-.credits a {color: gray;}
-
-.credits a:hover {border-bottom: 1px solid gray;}
 
 #header #mainmenu ul li a.active {text-decoration: line-through;}
 
@@ -641,7 +523,7 @@ a.gray {color: gray;}
 a:hover.gray {border-bottom:1px solid gray;}
 
 /* Special */
-
+/*
 ::-moz-selection{
   background:white;
   color:black;
@@ -650,4 +532,4 @@ a:hover.gray {border-bottom:1px solid gray;}
 ::selection {
   background:white;
   color:black;
-}
+}*/
