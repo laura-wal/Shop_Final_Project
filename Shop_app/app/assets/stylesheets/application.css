@@ -17,7 +17,7 @@
  */
 
 
- /*the css from the stapla
+ /*the css for the stapla
  ==========================================
  ==========================================*/
 body {
@@ -35,7 +35,7 @@ body {
 .yield_container .pile-me {
     position: absolute;
     z-index: 1000;
-    width: 213px;
+    width: 313px;
 /**/
   /*background-color: #23CAE3;
 */  border: 1px solid #000;
@@ -59,7 +59,7 @@ body {
     height: 100%;
 }
 
- /*the css from the stapla
+ /*the css for the stapla
  ==========================================
  ==========================================*/
 
@@ -315,6 +315,12 @@ h1 {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+/*cart page*/
+
+thead {
+  color: gray;
 }
 
 /*basket button*/

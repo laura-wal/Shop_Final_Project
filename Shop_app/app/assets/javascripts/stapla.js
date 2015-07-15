@@ -2,10 +2,10 @@
 var container = '#stapla';
 var pileEm = '.pile-me';
 var pileSize = 275;
-var pileMargin = 20;
-var offsetMax = 30;
+var pileMargin = 30;
+var offsetMax = 2;
 var columns = 3;
-var topMargin = 440;
+var topMargin = 159.5;
 
 /* No need to edit below unless to change core functionality */
 function setHeights() {
