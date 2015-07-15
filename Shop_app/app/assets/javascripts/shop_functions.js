@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 
   // trigger the 'see more' button when user click on the image
-  $('.site_container').on('click', '.addbasket', function() {
-    $(this).closest('.addbasket').find('.btn-primary').trigger('click');
+  $('.site_container').on('click', 'btn .addbasket', function() {
+    $(this).closest('.indivi_product').find('.btn-primary').trigger('click');
   });
 }); // end of document.ready  
