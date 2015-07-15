@@ -29,7 +29,7 @@ p2 = Product.create(name: 'Fragile 2', designer: 'Anne', price: 310, img: Rails.
 p3 = Product.create(name: 'Fragile 1', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/fragile_1.jpg").open)
 p4 = Product.create!(name: 'Fragile 4', designer: 'Jim', price: 41.00, img: Rails.root.join("app/assets/images/fragile_4.jpg").open)
 p5 = Product.create(name: 'Fragile 5', designer: 'Anna', price: 10, img: Rails.root.join("app/assets/images/fragile_5.jpg").open)
-p6 = Product.create(name: 'Fragile 5', designer: 'Anna', price: 10, img: Rails.root.join("app/assets/images/fragile_5.jpg").open)
+p6 = Product.create(catogory: 'Fragile', img: Rails.root.join("app/assets/images/green_box_1.jpg").open )
 
 
 p6 = Product.create(name: 'Home 1', designer: 'mini', price: 40, img: Rails.root.join("app/assets/images/home_1.jpg").open)

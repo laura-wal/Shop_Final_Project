@@ -6,17 +6,20 @@
 
 
   <div class="allProducts_container" id="stapla">
-     <% Product.find([80, 81, 82, 83, 84]).each_with_index do |product, index| %>
+     <% Product.find([141, 142, 143, 144, 145, 146]).each_with_index do |product, index| %>
      <div style="margin-left: 233.5px; margin-top: 99.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>" data-pile="1" >
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+          <div class="div cat">
+            <%= product.catogory %>
+          </div>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
 
     <% end %>
 
-     <% Product.find([85, 86, 87, 88, 89]).each_with_index do |product, index| %>
+     <% Product.find([147, 148, 149, 150, 151]).each_with_index do |product, index| %>
      <div style="margin-left: 700.5px; margin-top: 99.5px; display: block" class="indivi_product pile-me <%= @classes[index] %>"data-pile="2">
        <%= image_tag product.img %>
         <%= product.name %>
@@ -27,7 +30,7 @@
       </div>
     <% end %>
 
-     <% Product.find([90, 91, 92, 93, 94]).each_with_index do |product, index| %>
+     <% Product.find([152, 153, 154, 155, 156]).each_with_index do |product, index| %>
      <div style="margin-left: 1149.5px; margin-top: 99.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="3">
        <%= image_tag product.img %>
         <%= product.name %>
@@ -36,7 +39,7 @@
       </div>
     <% end %>
 
-    <% Product.find([95, 96, 97, 98, 99]).each_with_index do |product, index| %>
+    <% Product.find([157, 158, 159, 160, 161]).each_with_index do |product, index| %>
      <div style="margin-left: 233.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="4">
        <%= image_tag product.img %>
         <%= product.name %>
@@ -45,7 +48,7 @@
       </div>
     <% end %>
 
-    <% Product.find([100, 101, 102, 103, 104]).each_with_index do |product, index| %>
+    <% Product.find([162, 163, 164, 165, 166]).each_with_index do |product, index| %>
      <div style="margin-left: 700.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="5">
        <%= image_tag product.img %>
         <%= product.name %>
@@ -54,7 +57,7 @@
       </div>
     <% end %>
 
-    <% Product.find([105, 106, 107, 108, 109]).each_with_index do |product, index| %>
+    <% Product.find([167, 168, 169, 170, 171]).each_with_index do |product, index| %>
      <div style="margin-left: 1149.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="6">
        <%= image_tag product.img %>
         <%= product.name %>
