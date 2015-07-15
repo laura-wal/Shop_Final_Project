@@ -15,6 +15,52 @@
  *= require_self
  */
 
+
+ /*the css from the stapla
+ ==========================================
+ ==========================================*/
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    z-index:2;
+}
+
+
+
+.yield_container .pile-me {
+    position: absolute;
+    z-index: 1000;
+    width: 213px;
+    height: 168px;
+  background-color: #23CAE3;
+  border: 1px solid #000;
+}
+
+.yield_container .pile-me.hover {
+    background-color: #EB95D9;
+}
+
+.yield_container .pile-me.hover.active {
+  background-color: #23CAE3;
+}
+
+.yield_container {
+    position: absolute;
+    top:0;
+    left:0;
+    margin:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+ /*the css from the stapla
+ ==========================================
+ ==========================================*/
+
  @import "bootstrap-sprockets";
  @import "bootstrap"
 
@@ -25,13 +71,13 @@
 header {
   min-width: 100%;
 }
-body {
- /* background: url('gray_splat.png') center center fixed;*/
+/*body {
+ 
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #CCFF99;
   display: block;
-}
+}*/
 
 img {
   width: 300px;
@@ -41,9 +87,9 @@ img {
 .site_container {
 /*  max-width: 1250px;*/
  /* margin: 2% auto;*/
-  margin: 0 auto 0;
+ /* margin: 0 auto 0;
   width: 960px;
-  position: relative;
+  position: relative;*/
     z-index: 2;
  
 }
@@ -70,7 +116,7 @@ h1 {
   text-align: center;
 }
 
-.yield_container {
+/*.yield_container {
   position: absolute;
   top: 0;
   left: 0;
@@ -78,7 +124,7 @@ h1 {
   z-index: 1;
   width: 100%;
   height: 100%;
-}
+}*/
 
 /*.yield_container {
   width: 100%;
