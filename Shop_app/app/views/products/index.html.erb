@@ -13,6 +13,7 @@
         <%= number_to_currency product.price %>GBP
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
+      
     <% end %>
 
      <% Product.find([85, 86, 87, 88, 89]).each_with_index do |product, index| %>

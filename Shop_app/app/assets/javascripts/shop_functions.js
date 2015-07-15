@@ -70,7 +70,8 @@ $(document).ready(function() {
 
 
   // trigger the 'see more' button when user click on the image
-  $('.site_container').on('click', 'btn .addbasket', function() {
+  $('.site_container').on('click', '.addbasket', function() {
+    console.log(clicked);
     $(this).closest('.indivi_product').find('.btn-primary').trigger('click');
   });
 }); // end of document.ready  

@@ -11,7 +11,7 @@
 -------------------------------------------------------------- */
 
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
@@ -31,44 +31,44 @@ body { line-height: 1;}
 
 ol, ul { list-style: none;}
 
-blockquote, q { quotes: none;}
+blockquote, q { quotes: none;}*/
 
 /* remember to define focus styles! */
-:focus { outline: 0; }
+/*:focus { outline: 0; }*/
 
 /* remember to highlight inserts somehow! */
-ins { text-decoration: none;}
+/*ins { text-decoration: none;}
 
-del { text-decoration: line-through;}
+del { text-decoration: line-through;}*/
 
 /* tables still need 'cellspacing="0"' in the markup */
-table {
+/*table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+}*/
 
 /* Clearing floats without extra markup
    Based on How To Clear Floats Without Structural Markup by PiE
    [http://www.positioniseverything.net/easyclearing.html] */
-
+/*
 .clearfix:after, .container:after {
   content: "."; 
   display: block; 
   height: 0; 
   clear: both; 
   visibility: hidden;
-}
+}*/
 
-.clearfix { display: inline-block; }   
+/*.clearfix { display: inline-block; }   
 
 * html .clearfix { height: 1%; }
 
-.clearfix { display: block; }
+.clearfix { display: block; }*/
 
 /* Round Corners Reset */
 /* \*/
-* html .tlc, * html .trc { height: 1%; }
-/* */
+/** html .tlc, * html .trc { height: 1%; }
+/* */*/
 
 
 
@@ -422,7 +422,7 @@ button#apply:hover {
 
 /* Typograhy */
 
-body {font-family:"Theinhardt-Regular", Arial, Helvetica, sans-serif;font-size:11px;line-height:18px;letter-spacing: 0.07px;font-size-adjust: none;-webkit-text-size-adjust: none;background:black;color: white;}
+/*body {font-family:"Theinhardt-Regular", Arial, Helvetica, sans-serif;font-size:11px;line-height:18px;letter-spacing: 0.07px;font-size-adjust: none;-webkit-text-size-adjust: none;background:black;color: white;}
 
 a, a:link, a:visited, a:active, a:hover {color:white;text-decoration:none;}
 
@@ -520,7 +520,7 @@ th {font-weight: normal;}
 
 a.gray {color: gray;}
 
-a:hover.gray {border-bottom:1px solid gray;}*/
+a:hover.gray {border-bottom:1px solid gray;}*/*/
 
 /* Special */
 /*

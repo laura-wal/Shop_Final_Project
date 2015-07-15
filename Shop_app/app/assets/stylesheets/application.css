@@ -54,7 +54,7 @@ body {
     top:0;
     left:0;
     margin:0;
-    z-index: 1;
+    z-index: 1001;
     width: 100%;
     height: 100%;
 }
@@ -73,13 +73,13 @@ body {
 header {
   min-width: 100%;
 }
-/*body {
+body {
  
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #CCFF99;
   display: block;
-}*/
+}
 
 img {
   width: 100%;
@@ -101,7 +101,7 @@ img {
   width: 100%;
   top: 0;
   border-color: transparent;
-  z-index: 2;
+  z-index: 5000;
   background-color: #CCFF99;
   color: black;
 
@@ -155,13 +155,13 @@ h1 {
   box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
   -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
   -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
-  filter: progid:DXImageTransform.Microsoft.Shadow(color=#adacac, direction=135, strength=2);
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#adacac, direction=135, strength=0);
 }
 .indivi_product:hover {
   box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
   -moz-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
   -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
-  filter: progid:DXImageTransform.Microsoft.Shadow(color=#979797, direction=135, strength=3);
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#979797, direction=135, strength=1);
 }
 .indivi_product img {
   border-radius: 8px;
@@ -184,6 +184,10 @@ h1 {
 }*/
  .modal-content {
   width: 100%;
+}
+
+.modal {
+  z-index: 3000;
 }
 .disabled {
   pointer-events: none;
@@ -361,4 +365,5 @@ h1 {
 /*stoping the bootstrap boarder color*/
 .btn-info {
   border-color: transparent !important;
+  z-index: 2000;
 }
