@@ -63,10 +63,10 @@ body {
  ==========================================
  ==========================================*/
 
- @import "bootstrap-sprockets";
+/* @import "bootstrap-sprockets";
  @import "bootstrap"
+ @import"bootstrap.css";*/
 
- @import"bootstrap.css";
  .invisible {
   display: none;
 }
