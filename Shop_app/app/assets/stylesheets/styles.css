@@ -78,7 +78,7 @@ table {
 
 /* Structure */
 
-#wrapper {margin:0 auto 0;width:960px;position: relative;z-index: 1;}
+/*#wrapper {margin:0 auto 0;width:960px;position: relative;z-index: 1;}
 
 .row {float:left;display:block;margin:0 0 57px;width:960px;clear:left;}
 
@@ -520,7 +520,7 @@ th {font-weight: normal;}
 
 a.gray {color: gray;}
 
-a:hover.gray {border-bottom:1px solid gray;}
+a:hover.gray {border-bottom:1px solid gray;}*/
 
 /* Special */
 /*
