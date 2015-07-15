@@ -2,7 +2,7 @@
 
 
   <div class="allProducts_container" id="stapla">
-     <% Product.find([30, 31, 32, 33, 34]).each_with_index do |product, index| %>
+     <% Product.find([80, 81, 82, 83, 84]).each_with_index do |product, index| %>
      <div style="margin-left: 313.5px; margin-top: 499.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>" data-pile="1" >
        <%= image_tag product.img %>
         <%= product.name %>
@@ -11,7 +11,7 @@
       </div>
     <% end %>
 
-     <% Product.find([35, 36, 37, 38, 39]).each_with_index do |product, index| %>
+     <% Product.find([85, 86, 87, 88, 89]).each_with_index do |product, index| %>
      <div style="margin-left: 700.5px; margin-top: 522.5px; display: block" class="indivi_product pile-me <%= @classes[index] %>"data-pile="2">
        <%= image_tag product.img %>
         <%= product.name %>
@@ -20,8 +20,35 @@
       </div>
     <% end %>
 
-     <% Product.find([40, 41, 42, 43, 44]).each_with_index do |product, index| %>
+     <% Product.find([90, 91, 92, 93, 94]).each_with_index do |product, index| %>
      <div style="margin-left: 1000.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="3">
+       <%= image_tag product.img %>
+        <%= product.name %>
+        <%= number_to_currency product.price %>GBP
+        <%= render :partial => 'product_info', :locals => {product:product} %>
+      </div>
+    <% end %>
+
+    <% Product.find([95, 96, 97, 98, 99]).each_with_index do |product, index| %>
+     <div style="margin-left: 700.5px; margin-top: 823.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="4">
+       <%= image_tag product.img %>
+        <%= product.name %>
+        <%= number_to_currency product.price %>GBP
+        <%= render :partial => 'product_info', :locals => {product:product} %>
+      </div>
+    <% end %>
+
+    <% Product.find([100, 101, 102, 103, 104]).each_with_index do |product, index| %>
+     <div style="margin-left: 1000.5px; margin-top: 823.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="5">
+       <%= image_tag product.img %>
+        <%= product.name %>
+        <%= number_to_currency product.price %>GBP
+        <%= render :partial => 'product_info', :locals => {product:product} %>
+      </div>
+    <% end %>
+
+    <% Product.find([105, 106, 107, 108, 109]).each_with_index do |product, index| %>
+     <div style="margin-left: 313.5px.5px; margin-top: 823.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="6">
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP

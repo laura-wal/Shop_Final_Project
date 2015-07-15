@@ -36,9 +36,9 @@ body {
     position: absolute;
     z-index: 1000;
     width: 213px;
-    height: 168px;
-  background-color: #23CAE3;
-  border: 1px solid #000;
+/*    height: 168px;*/
+  /*background-color: #23CAE3;
+*/  border: 1px solid #000;
 }
 
 .yield_container .pile-me.hover {
