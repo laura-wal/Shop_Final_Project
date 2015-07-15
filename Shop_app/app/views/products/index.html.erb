@@ -20,7 +20,9 @@
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
-        <%= render :partial => 'product_info', :locals => {product:product} %>
+          <button type="submit" class="btn btn-info addbasket">BUY
+          <%= render :partial => 'product_info', :locals => {product:product} %>
+        </button>
       </div>
     <% end %>
 

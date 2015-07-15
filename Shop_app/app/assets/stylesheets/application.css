@@ -36,7 +36,7 @@ body {
     position: absolute;
     z-index: 1000;
     width: 213px;
-/*    height: 168px;*/
+/**/
   /*background-color: #23CAE3;
 */  border: 1px solid #000;
 }
@@ -219,22 +219,6 @@ h1 {
   margin-bottom: 10px;
 }*/
 
-/*hr.style-eight {
-  padding: 0;
-  border: none;
-  border-top: medium double #333;
-  color: #333;
-  text-align: center;
-}
-hr.style-eight:after {
-  content:"§";
-  display: inline-block;
-  position: relative;
-  top: -0.7em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: white;
-}*/
 .quantity {
   width: 50px;
   display: inline-block;
@@ -328,6 +312,15 @@ hr.style-eight:after {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+/*basket button*/
+.addbasket {
+  color: white;
+  background-color: black;
+
+}
+
+
 /* Button container */
  .progress-button {
   position: relative;
@@ -363,4 +356,9 @@ hr.style-eight:after {
 }
 .progress-button input:focus {
   outline: none;
+}
+
+/*stoping the bootstrap boarder color*/
+.btn-info {
+  border-color: transparent !important;
 }

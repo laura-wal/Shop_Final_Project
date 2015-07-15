@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
 
    before_action :set_product, only: [:show, :edit, :update, :destroy]
 
-  before_filter :check_if_admin, only: [:create, :new, :destroy, :update, :edit]
+   before_filter :check_if_admin, only: [:create, :new, :destroy, :update, :edit]
   
   def index
     @classes = ['one', 'two', 'three', 'four', 'five']
