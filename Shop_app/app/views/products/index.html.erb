@@ -63,7 +63,7 @@
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
     <% end %>
-294, 295, 296, 297, 298, 299
+
     <% Product.find([294, 295, 296, 297, 298, 299]).each_with_index do |product, index| %>
      <div style="margin-left: 700.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="5">
        <%= image_tag product.img %>

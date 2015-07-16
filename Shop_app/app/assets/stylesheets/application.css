@@ -60,8 +60,15 @@ img {
 
 .logo .navbar-brand {
   font-size: 31px;
-  margin-bottom: 20px;
-  color: #E84600;
+  margin-bottom: 0px;
+ /* color: #E84600;*/
+ color: darkblue;
+}
+
+.logo-text {
+margin-top: 36px;
+color: gray;
+font-size: 14px;
 }
 
 .navbar-form {
@@ -140,6 +147,19 @@ h1 {
   border-radius: 8px;
   text-align: center;
 }
+/*//////////////////////model//////////////////////////////*/
+
+p.lead {
+  color: gray;
+}
+
+.modal-header {
+color: #E84600;
+}
+
+.img-responsive {
+  max-width: 68%;
+}
 
 .product_left_panel, .product_right_panel {
   display: inline-block;
@@ -147,7 +167,9 @@ h1 {
   min-width: 48%;
 }
 #enlarge-modal {
-  width: 780px;
+  width: 580px;
+  position: relative;
+  top: 130px;
 }
 /*@media only screen and (min-width : 480px) {
   #enlarge-modal {
@@ -297,10 +319,13 @@ h1 {
 
 /*cart page*/
 
-thead {
-  color: gray;
+thead, td {
+ color: gray;
 }
 
+thread, tr {
+  color: #E84600;
+}
 
 /*/////////////////////////////// Button style ///////////////////////*/
 /*basket button*/
@@ -359,4 +384,13 @@ thead {
 .btn-info:hover {
   background-color: #E84600;
 }
+
+.btn-success {
+ background-color: #00FFCC;
+ border-color: transparent !important;
+}
+
+
+
+
 

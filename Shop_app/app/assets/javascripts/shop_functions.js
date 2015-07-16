@@ -74,4 +74,5 @@ $(document).ready(function() {
     $(this).closest('.indivi_product').unbind('click');
     $(this).closest('.indivi_product').find('.btn-primary').trigger('click');
   });
+  
 }); // end of document.ready  

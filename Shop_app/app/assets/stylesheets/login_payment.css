@@ -19,3 +19,8 @@ a, #newuser {
 .field input {
   width: 100% ;
 }
+
+/*/////////////////////cart/////////////*/
+.table-responsive {
+  margin-top: 190px;
+}
