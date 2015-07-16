@@ -51,7 +51,7 @@ p19 = Product.create(name: 'Liquid 2', designer: 'me', price: 40, img: Rails.roo
 p22 = Product.create!(name: 'Liquid 3', designer: 'me', price: 41, img: Rails.root.join("app/assets/images/name_3.jpg").open)
 p21 = Product.create(name: 'Liquid 4', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/name_4.jpg").open)
 p23 = Product.create(name: 'Liquid 5', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/name_5.jpg").open)
-p98 = Product.create(catogory: 'Liquid', img: Rails.root.join("app/assets/images/liquid_big.jpg").open )
+p99 = Product.create(catogory: 'Liquid', img: Rails.root.join("app/assets/images/liquid_big.jpg").open )
 
 p24 = Product.create(name: 'Paper 1', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/paper_1.jpg").open)
 p25 = Product.create(name: 'Paper 2', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/paper_2.jpg").open)
