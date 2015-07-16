@@ -7,7 +7,6 @@ $(document).ready(function() {
     var $productID = $(this).closest('.product_right_panel').data('productid');
 
     orderProduct.createOrderProduct($quantity, $productID);
-    debugger
   });
 
   // Event listener for 'Remove' item from Cart

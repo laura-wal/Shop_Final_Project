@@ -103,8 +103,14 @@ img {
   width: 960px;
   position: relative;*/
     z-index: 2;
- 
 }
+
+/*/////////////////  NAV BAR  /////////////////////////////////////////////*/
+
+.logo {
+  font-size: 45px;
+}
+
 .navbar {
   /*background: -webkit-linear-gradient(top, #CCFF99);*/
   position: fixed;
@@ -212,7 +218,7 @@ h1 {
  $('.modal-backdrop').css({
      'position': 'relative'
  });
- 
+
 .scrollToTop {
   position: fixed;
   display: none;
@@ -388,3 +394,5 @@ thead {
   border-color: transparent !important;
   z-index: 2000;
 }
+
+
