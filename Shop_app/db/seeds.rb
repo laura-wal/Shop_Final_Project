@@ -29,7 +29,7 @@ p2 = Product.create(name: 'Fragile 2', designer: 'Anne', price: 310, img: Rails.
 p3 = Product.create(name: 'Fragile 1', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/fragile_1.jpg").open)
 p4 = Product.create!(name: 'Fragile 4', designer: 'Jim', price: 41.00, img: Rails.root.join("app/assets/images/fragile_4.jpg").open)
 p5 = Product.create(name: 'Fragile 5', designer: 'Anna', price: 10, img: Rails.root.join("app/assets/images/fragile_5.jpg").open)
-p6 = Product.create(catogory: 'Fragile', img: Rails.root.join("app/assets/images/green_box_1.jpg").open )
+p6 = Product.create(catogory: 'Fragile', img: Rails.root.join("app/assets/images/fiagile_big.jpg").open )
 
 
 p6 = Product.create(name: 'Home 1', designer: 'mini', price: 40, img: Rails.root.join("app/assets/images/home_1.jpg").open)
@@ -54,7 +54,7 @@ p24 = Product.create(name: 'Paper 1', designer: 'Anne', price: 310, img: Rails.r
 p25 = Product.create(name: 'Paper 2', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/paper_2.jpg").open)
 p26 = Product.create(name: 'Paper 3', designer: 'Anna', price: 10, img: Rails.root.join("app/assets/images/paper_3.jpg").open)
 p27 = Product.create(name: 'Paper 4', designer: 'mini', price: 40, img: Rails.root.join("app/assets/images/paper_4.jpg").open)
-p28 = Product.create!(name: 'Paper 5', designer: 'nick', price: 71, img: Rails.root.join("app/assets/images/paper_5.jpg").open)
+p28 = Product.create!(name: 'Paper 5', designer: 'nick', price: 71, img: Rails.root.join("app/assets/images/paper_big.jpg").open)
 
 p58 = Product.create(name: 'Soft 1', designer: 'Anne', price: 310, img: Rails.root.join("app/assets/images/soft_1.jpg").open)
 p29 = Product.create(name: 'Soft 2', designer: 'me', price: 40, img: Rails.root.join("app/assets/images/soft_2.jpg").open)

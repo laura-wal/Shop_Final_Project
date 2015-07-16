@@ -16,7 +16,7 @@
      <div style="margin-left: 233.5px; margin-top: 129.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>" data-pile="1" >
        <%= image_tag product.img %>
         <%= product.name %>
-        <%= number_to_currency product.price %>GBP
+        <%= number_to_currency product.price, unit: '£' %>
         <% unless index == 5  %>
           <button type="submit" class="btn btn-info addbasket">BUY</button> 
         <% end %>
@@ -30,7 +30,7 @@
      <div style="margin-left: 700.5px; margin-top: 129.5px; display: block" class="indivi_product pile-me <%= @classes[index] %>"data-pile="2">
        <%= image_tag product.img %>
         <%= product.name %>
-        <%= number_to_currency product.price %>GBP
+        <%= number_to_currency product.price, unit: '£' %>
         <% unless index == 5  %>
           <button type="submit" class="btn btn-info addbasket">BUY</button> 
         <% end %>
@@ -43,7 +43,7 @@
      <div style="margin-left: 1149.5px; margin-top: 129.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="3">
        <%= image_tag product.img %>
         <%= product.name %>
-        <%= number_to_currency product.price %>GBP
+        <%= number_to_currency product.price, unit: '£' %>
         <% unless index == 5  %>
           <button type="submit" class="btn btn-info addbasket">BUY</button> 
         <% end %>
@@ -55,7 +55,7 @@
      <div style="margin-left: 233.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="4">
        <%= image_tag product.img %>
         <%= product.name %>
-        <%= number_to_currency product.price %>GBP
+        <%= number_to_currency product.price, unit: '£' %>
         <% unless index == 5  %>
           <button type="submit" class="btn btn-info addbasket">BUY</button> 
         <% end %>
@@ -67,7 +67,7 @@
      <div style="margin-left: 700.5px; margin-top: 523.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="5">
        <%= image_tag product.img %>
         <%= product.name %>
-        <%= number_to_currency product.price %>GBP
+        <%= number_to_currency product.price, unit: '£' %>
         <% unless index == 5  %>
           <button type="submit" class="btn btn-info addbasket">BUY</button> 
         <% end %>
