@@ -107,8 +107,10 @@ img {
 
 /*/////////////////  NAV BAR  /////////////////////////////////////////////*/
 
-.logo {
-  font-size: 45px;
+.logo .navbar-brand {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #E84600;
 }
 
 .navbar {
