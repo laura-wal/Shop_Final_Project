@@ -1,0 +1,55 @@
+ /*the css for the stapla
+ ==========================================
+ ==========================================*/
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: none;
+}
+
+#wrapper {
+    z-index:2;
+}
+
+
+
+.yield_container .pile-me {
+    position: absolute;
+    z-index: 1000;
+    width: 313px;
+
+  /*background-color: #23CAE3;*/
+  /*border: 1px solid #000;*/
+}
+
+.yield_container .pile-me.hover {
+    background-color: #EB95D9;
+}
+
+.yield_container .pile-me.hover.active {
+  background-color: #23CAE3;
+}
+
+.yield_container {
+    /*position: absolute;*/
+    top:0;
+    left:0;
+    margin:0;
+    z-index: 1001;
+    width: 100%;
+    height: 100%;
+}
+
+.cat {
+/*width: 320px;
+height: 300px;*/
+font-size: 40px;
+text-align: center;  
+position: relative;
+top: -142px;
+color: white;
+}
+
+ /*the css for the stapla
+ ==========================================
+ ==========================================*/

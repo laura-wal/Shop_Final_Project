@@ -17,74 +17,20 @@
  */
 
 
- /*the css for the stapla
- ==========================================
- ==========================================*/
-body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background: none;
-}
-
-#wrapper {
-    z-index:2;
-}
-
-
-
-.yield_container .pile-me {
-    position: absolute;
-    z-index: 1000;
-    width: 313px;
-
-  /*background-color: #23CAE3;*/
-  /*border: 1px solid #000;*/
-}
-
-.yield_container .pile-me.hover {
-    background-color: #EB95D9;
-}
-
-.yield_container .pile-me.hover.active {
-  background-color: #23CAE3;
-}
-
-.yield_container {
-    /*position: absolute;*/
-    top:0;
-    left:0;
-    margin:0;
-    z-index: 1001;
-    width: 100%;
-    height: 100%;
-}
-
-.cat {
-/*width: 320px;
-height: 300px;*/
-font-size: 40px;
-text-align: center;  
-position: relative;
-top: -142px;
-color: white;
-}
-
- /*the css for the stapla
- ==========================================
- ==========================================*/
 
  @import "bootstrap-sprockets";
  @import "bootstrap"
  @import"bootstrap.css";
 
- .invisible {
+.invisible {
   display: none;
 }
+
 header {
   min-width: 100%;
 }
+
 body {
- 
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #CCFF99;
@@ -94,8 +40,8 @@ body {
 img {
   width: 100%;
   text-align: center;
-
 }
+
 .site_container {
 /*  max-width: 1250px;*/
  /* margin: 2% auto;*/
@@ -107,10 +53,19 @@ img {
 
 /*/////////////////  NAV BAR  /////////////////////////////////////////////*/
 
+.navbar-nav > li > a {
+  padding-top: 72px;
+  font-size: 18px;
+}
+
 .logo .navbar-brand {
   font-size: 35px;
   margin-bottom: 20px;
   color: #E84600;
+}
+
+.navbar-form {
+  margin-top: 65px;
 }
 
 .navbar {
@@ -380,7 +335,7 @@ thead {
   font-size: 18px;
   font-family:'Montserrat', sans-serif;
   -webkit-tap-highlight-color: transparent;
-  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;5
   transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
 }
 .progress-button input:hover {
@@ -395,6 +350,10 @@ thead {
 .btn-info {
   border-color: transparent !important;
   z-index: 2000;
+  background-color: #00FFCC;
 }
 
+.btn-info:hover {
+  background-color: #E84600;
+}
 

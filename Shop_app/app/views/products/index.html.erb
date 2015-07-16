@@ -12,17 +12,18 @@
     </div>
 
      <% Product.find([172, 173, 174, 175, 176, 177]).each_with_index do |product, index| %>
-     <div style="margin-left: 233.5px; margin-top: 99.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>" data-pile="1" >
+     <div style="margin-left: 233.5px; margin-top: 129.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>" data-pile="1" >
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+        <button type="submit" class="btn btn-info addbasket">BUY</button>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
       
     <% end %>
 
      <% Product.find([178, 179, 180, 181, 182]).each_with_index do |product, index| %>
-     <div style="margin-left: 700.5px; margin-top: 99.5px; display: block" class="indivi_product pile-me <%= @classes[index] %>"data-pile="2">
+     <div style="margin-left: 700.5px; margin-top: 129.5px; display: block" class="indivi_product pile-me <%= @classes[index] %>"data-pile="2">
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
@@ -33,10 +34,11 @@
     <% end %>
 
      <% Product.find([183, 184, 185, 186, 187]).each_with_index do |product, index| %>
-     <div style="margin-left: 1149.5px; margin-top: 99.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="3">
+     <div style="margin-left: 1149.5px; margin-top: 129.5px; display: block;" class="indivi_product pile-me <%= @classes[index] %>"data-pile="3">
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+        <button type="submit" class="btn btn-info addbasket">BUY</button>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
     <% end %>
@@ -46,6 +48,7 @@
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+        <button type="submit" class="btn btn-info addbasket">BUY</button>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
     <% end %>
@@ -55,6 +58,7 @@
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+        <button type="submit" class="btn btn-info addbasket">BUY</button>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
     <% end %>
@@ -64,6 +68,7 @@
        <%= image_tag product.img %>
         <%= product.name %>
         <%= number_to_currency product.price %>GBP
+        <button type="submit" class="btn btn-info addbasket">BUY</button>
         <%= render :partial => 'product_info', :locals => {product:product} %>
       </div>
     <% end %>
