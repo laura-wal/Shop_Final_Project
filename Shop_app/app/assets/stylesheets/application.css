@@ -50,7 +50,7 @@ body {
 }
 
 .yield_container {
-    position: absolute;
+    /*position: absolute;*/
     top:0;
     left:0;
     margin:0;
@@ -208,6 +208,11 @@ h1 {
   color: #5cb85c!important;
   margin: 0;
 }
+
+ $('.modal-backdrop').css({
+     'position': 'relative'
+ });
+ 
 .scrollToTop {
   position: fixed;
   display: none;

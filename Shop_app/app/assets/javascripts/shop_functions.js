@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+  console.log('shopFunctionJs run');
   // Event listener for 'add to cart' button
   $('.addToCart').on('click', function(event) {
     event.preventDefault();
@@ -71,7 +71,8 @@ $(document).ready(function() {
 
   // trigger the 'see more' button when user click on the image
   $('.site_container').on('click', '.addbasket', function() {
-    console.log(clicked);
+    $(this).closest('.indivi_product').removeClass('pile-me');
+    $(this).closest('.indivi_product').unbind('click');
     $(this).closest('.indivi_product').find('.btn-primary').trigger('click');
   });
 }); // end of document.ready  

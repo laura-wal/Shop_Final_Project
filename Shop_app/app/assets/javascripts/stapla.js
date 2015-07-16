@@ -83,9 +83,11 @@ function stapla(init) {
 $(function() {
 
     $(container).delegate(pileEm, "click", function(event) {
-        
-        if ( !$(this).hasClass('active') ) {
-        
+        // if ($(event.target).attr('class') === "btn btn-info addbasket"){
+             // $(event.target).closest('.indivi_product').find('.btn-primary').trigger('click');
+             // return;
+        // }
+        if ( !$(this).hasClass('active') ) {        
             $('body').addClass('back');
                
             var winWidth = $(window).width();                
@@ -182,11 +184,12 @@ $(function() {
         
         }
         
-        event.stopPropagation();
+        // event.stopPropagation();
     });
     
     $('body.back').on({
         click: function(event){
+            console.log('bodyBack')
             stapla(false);
             $(pileEm).removeClass('active');
             $('body').removeClass('back');
