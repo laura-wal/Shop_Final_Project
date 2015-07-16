@@ -24,3 +24,28 @@ a, #newuser {
 .table-responsive {
   margin-top: 190px;
 }
+
+.checkout-container {
+  top: 170px;
+  color: black;
+  border: 1px black solid;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.orderfinished {
+  top: 170px;
+  color: black;
+  border: 1px black solid;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
