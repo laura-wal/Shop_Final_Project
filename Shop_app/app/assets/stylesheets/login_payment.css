@@ -1,0 +1,21 @@
+h2 {
+  color: black;
+  font-size: 20px;
+}
+
+.new_user {
+  color: black;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  position: relative;
+  top: 150px;
+}
+
+a, #newuser {
+  font-size: 20px;
+}
+
+.field input {
+  width: 100% ;
+}
