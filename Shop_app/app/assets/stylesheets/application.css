@@ -301,11 +301,14 @@ thead {
   color: gray;
 }
 
+
+/*/////////////////////////////// Button style ///////////////////////*/
 /*basket button*/
 .addbasket {
   color: white;
   background-color: black;
-
+  float: right;
+  margin-top: 8px;
 }
 
 
@@ -318,7 +321,7 @@ thead {
   min-width: 250px;
   margin: 10px;
 }
-/* Button style */
+
  .progress-button input {
   display: inline-block;
   margin: 0 auto;
